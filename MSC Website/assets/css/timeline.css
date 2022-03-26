@@ -1,0 +1,5 @@
+.timeLine-card{
+    height: 100%!important;
+    width: 100%!important;
+    overflow-y: auto;
+}

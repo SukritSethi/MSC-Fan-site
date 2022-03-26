@@ -1,0 +1,384 @@
+.team-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.team-box{
+    width: 22%;
+
+    border: 2px solid #333;
+    box-shadow: 0 0 4px 1px rgba(53, 51, 51, 0.808);
+    border-radius: 15px;
+
+    margin: 15px 20px 15px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.team-box:hover{
+    background-image: linear-gradient(110deg, rgba(205, 150, 110) 6%, rgb(220, 180, 180) 53%);
+    transition: 0.4s ease-in;
+    transform: scale(103%);
+}
+
+.potrait{
+    border-radius: 50%;
+    padding: 5px 0px 15px 0px;
+}
+
+
+.team-box a{
+    text-decoration: none;
+    color: #fff;
+
+    padding: 2px;
+}
+
+.team-box a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-box a:active{
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-box a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-screen{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.team-container{
+  overflow: scroll;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.476); */
+    background-image: linear-gradient(130deg, rgba(52, 230, 73, 0.388), rgba(22, 232, 162, 0.818));
+
+    /* border: 2px solid rgba(255, 255, 255, 0.767); */
+    border-radius: 16px;
+
+    height: 87vh;
+    width: 120vh;
+
+
+    /* box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808); */
+    overflow-y: scroll;
+    position: relative;
+
+}
+
+.teamheading-container{
+    background-image: linear-gradient(90deg, rgba(144, 144, 144, 0.51), rgba(186, 186, 186, 0));
+    /* background-image: */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 25%;
+
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    /* border: 2px solid rgba(255, 255, 255, 0.767); */
+    /* box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);  */
+}
+
+.team-cardHeader{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    padding-left: 2rem;;
+    align-items: center;
+    padding-bottom: 8px;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#team-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin:0 0 2% 0;
+}
+
+#team-cardHeaderTextExbo{
+    font-size: 1.5rem;
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    padding-left: 1rem;
+    padding-top: 0rem;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.team-screen ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+.team-screen ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.team-circle1, .team-circle2, .team-circle3{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.767);
+}
+
+.team-circle1{
+    background-color: rgb(7, 255, 19);
+}
+
+.team-circle2{
+    background-color: rgb(16, 114, 24);
+}
+.team-circle3{
+    background-color: rgb(16, 114, 24);
+}
+
+.team-logo-img{
+    width: 20%;
+}
+.team-logo{
+    display: inline-block; 
+}
+.team-logo-container{
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+/* figure, .img-bg */
+figure,
+.img-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+/* img */
+img {
+  height: 100%;
+  border-radius: 24px;
+}
+
+/* figcaption */
+figcaption {
+  width: 80%;
+  padding: 8px 5px;
+
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 15px;
+
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  letter-spacing: 1px;
+  font-family: arial;
+  border-radius: 30px;
+  background: hsla(var(--hue), 25%, 10%, .8);
+}
+
+
+
+
+/* button */
+button {
+  font-family: inherit;
+  font-weight: bold;
+  color: var(--white-1);
+
+  letter-spacing: 2px;
+
+  padding: 9px 20px;
+  border: 1px solid var(--grey);
+  border-radius: 1000px;
+  background: transparent;
+  transition: .3s;
+
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  color: var(--primary);
+  background: hsla(var(--hue), 25%, 10%, .2);
+  border-color: currentColor;
+}
+
+button:active {
+  transform: translate(2px);
+}
+
+/* .design-container */
+.design-container {
+  --tr: 90;
+  --op: .5;
+
+  width: 100%;
+  height: 100%;
+
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  pointer-events: none;
+}
+
+/* .design */
+.design {
+  display: block;
+
+  background: var(--grey);
+  position: absolute;
+
+  opacity: var(--op);
+  transition: .3s;
+}
+
+.design--1,
+.design--2,
+.design--3,
+.design--4 {
+  width: 1px;
+  height: 100%;
+}
+
+.design--1,
+.design--2 {
+  top: 0;
+  transform: translateY(calc((var(--tr) - (var(--tr) * 2)) * 1%))
+}
+
+.design--1 {
+  left: 20%;
+}
+
+.design--2 {
+  left: 80%;
+}
+
+.design--3,
+.design--4 {
+  bottom: 0;
+  transform: translateY(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%))
+}
+
+.design--3 {
+  left: 24%;
+}
+
+.design--4 {
+  left: 76%;
+}
+
+.design--5,
+.design--6,
+.design--7,
+.design--8 {
+  width: 100%;
+  height: 1px;
+}
+
+.design--5,
+.design--6 {
+  left: 0;
+  transform: translateX(calc((var(--tr) - (var(--tr) * 2)) * 1%));
+}
+
+.design--5 {
+  top: 41%;
+}
+
+.design--6 {
+  top: 59%;
+}
+
+.design--7,
+.design--8 {
+  right: 0;
+  transform: translateX(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%))
+}
+
+.design--7 {
+  top: 44%;
+}
+
+.design--8 {
+  top: 56%;
+}
+
+/* states */
+button:hover+.design-container,
+button:active+.design-container,
+button:focus+.design-container {
+  --tr: 20;
+  --op: .7;
+}
+
+.abs-site-link {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: hsla(0, 0%, 100%, .6);
+  font-size: 16px;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.msc-fan-art {
+    text-align: center;
+}
